@@ -1,6 +1,6 @@
 ---
 title: "Mal for presentasjon"
-author: "Your Names"
+author: "esknu, marma-gest, Rrbracci"
 format:
   revealjs:
         theme: simple
