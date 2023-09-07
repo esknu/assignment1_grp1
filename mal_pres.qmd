@@ -59,6 +59,6 @@ endelige presentasjonen.
 ## Slide 3
 
 -   Content authored with markdown
--   Output from executable code
+-   Output from executable code.
 
 ## Referanser
