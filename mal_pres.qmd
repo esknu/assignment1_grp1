@@ -1,5 +1,5 @@
 ---
-title: "Mal for presentasjon"
+title: "Hvorfor er ikke Checkpoint/renv nok til å sikre reproduserbarhet?"
 author: "esknu, marma-gest, Rrbracci"
 format:
   revealjs:
