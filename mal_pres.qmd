@@ -26,60 +26,53 @@ nocite: '@*'
 
 -   Checkpoint/renv
 
-    -   Hva er checkpoint?
-
-        -   Det er....
-
-        -   Hvorfor ikke reproduserbart?
-
-            -   
-
 -   Docker
-
-    -   Hva er Docker?
-
-        ![Figur1](Docker.png)
-
-    -   Hvofor kan Docker sikre økt reproduserbarhet?
 
 -   Er Docker «over-kill»?
 
-    1)  First underpoint
-    2)  Second underpoint
-
--   Second point
-
-. . .
-
-For å sikre at ting venter med å bli vist bruk Slide Pause fra Insert
-menyen. Vises som ... i Quarto presentasjonen, men er usynlig i den
-endelige presentasjonen.
-
 ## Checkpoint/renv
 
--   
+-   Hva er Renv?
 
--   Hvis en har incremental: true i YAML kan en få en liste til å bli
-    nonincremental ved å benytte en Div (Div... fra Insert menyen)
+    -   Kommando
 
--   Lag Div-en. Klikk de tre prikkene til høyre. Skriv inn
-    `.nonincremental` for class (`.incremental` hvis en ikke har
-    incremental som default)
+        -   renv::init()
 
-. . .
+        -   renv::snapshot()
 
-::: nonincremental
--   First point
+```{=html}
+<!-- -->
+```
+-   Hvordan synkronisere med annen datamaskin
 
-    1)  First underpoint
-    2)  Second underpoint
+    -   renv::init()
 
--   Second point
-:::
+    -   renv:restore()
 
-## Slide 3
+-   Problemer som oppstår:
 
--   Content authored with markdown
--   Output from executable code.
+-   Hva er Checkpoint?
+
+    -   Store likheter med Renv
+
+## Docker
+
+-   Hva er en Docker?
+
+    -   Åpen kildekode-platform
+
+    -   Automatisere applikasjonene
+
+        ![(Rad et al., 2017).](Docker.png)
+
+-   Hvofor kan Docker sikre økt reproduserbarhet?
+
+    -   Raskt og effektivt
+
+    -   Presis på utvelgelse
+
+    -   ![(Peikert & Brandmaier, 2021).](Docker2.png)
+
+## Er docker "overkill"?
 
 ## Referanser
