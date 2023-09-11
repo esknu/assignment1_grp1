@@ -72,6 +72,14 @@ nocite: '@*'
 
         ![(Peikert & Brandmaier, 2021).](Docker2.png)
 
-## Er docker "overkill"?
+## Er Docker "Over-kill"?
+
+-   Avhenger av størrelsen og kompleksiteten i bedriften
+    -   Høyt arbeidsomfang krever sannsynligvis flere pakker og flere
+        personer som jobber sammen på tvers av bedriften
+-   Fordeler med docker i en større bedrift
+    -   Reduserer tidsbruk knyttet til oppsett
+    -   Reduserer sannsynligheten for tekniske problemer
 
 ## Referanser
+
