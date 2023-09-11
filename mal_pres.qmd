@@ -38,6 +38,8 @@ nocite: '@*'
 
     -   Hva er Docker?
 
+        ![Figur1](Docker.png)
+
     -   Hvofor kan Docker sikre økt reproduserbarhet?
 
 -   Er Docker «over-kill»?
@@ -56,8 +58,10 @@ endelige presentasjonen.
 ## Checkpoint/renv
 
 -   
+
 -   Hvis en har incremental: true i YAML kan en få en liste til å bli
     nonincremental ved å benytte en Div (Div... fra Insert menyen)
+
 -   Lag Div-en. Klikk de tre prikkene til høyre. Skriv inn
     `.nonincremental` for class (`.incremental` hvis en ikke har
     incremental som default)
