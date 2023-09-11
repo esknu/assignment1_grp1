@@ -40,9 +40,6 @@ nocite: '@*'
 
         -   renv::snapshot()
 
-```{=html}
-<!-- -->
-```
 -   Hvordan synkronisere med annen datamaskin
 
     -   renv::init()
@@ -71,7 +68,9 @@ nocite: '@*'
 
     -   Presis på utvelgelse
 
-    -   ![(Peikert & Brandmaier, 2021).](Docker2.png)
+    -   
+
+        ![(Peikert & Brandmaier, 2021).](Docker2.png)
 
 ## Er docker "overkill"?
 
