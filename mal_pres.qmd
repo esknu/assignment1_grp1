@@ -78,8 +78,17 @@ nocite: '@*'
     -   Høyt arbeidsomfang krever sannsynligvis flere pakker og flere
         personer som jobber sammen på tvers av bedriften
 -   Fordeler med docker i en større bedrift
+    -   Standardisert løsning
+    -   Rask og konsistent
     -   Reduserer tidsbruk knyttet til oppsett
     -   Reduserer sannsynligheten for tekniske problemer
+-   Når burde man bruke docker?
+    -   ektene dine blir brukt i forskjellige miljøer (operativ system
+        o.l.)
+    -   Dersom du ønsker et skalerbart prosjekt og flere brukere
+-   Når burde man ikke bruke docker
+    -   Små prosjekterFå utviklere
+
+    -   Manglende kunnskap om docker
 
 ## Referanser
-
