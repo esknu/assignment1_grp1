@@ -1,0 +1,35 @@
+---
+title: "lkolokoo"
+format: revealjs
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation.
+To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code.
+You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Er Docker "over-kill"?
+
+-   Avhenger av størrelsen og kompleksiteten i bedriften
+    -   Høyt arbeidsomfang krever sannsynligvis flere pakker og flere personer som jobber sammen på tvers av bedriften
+-   Fordeler med docker i en større bedrift
+    -   Reduserer tidsbruk knyttet til oppsett
+    -   Reduserer sannsynligheten for tekniske problemer
+    -   

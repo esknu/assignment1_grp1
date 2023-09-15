@@ -74,23 +74,24 @@ nocite: '@*'
 
 ## Er Docker "Over-kill"?
 
--   Avhenger av størrelsen og kompleksiteten i bedriften
+-   Avhenger av størrelsen og kompleksiteten av arbeidet
     -   Høyt arbeidsomfang krever sannsynligvis flere pakker og flere
-        personer som jobber sammen på tvers av bedriften
--   Fordeler med docker i en større bedrift
+        personer som jobber sammen
+-   Fordeler med docker
     -    Standardisert løsning
     -   Rask og konsistent
-    -   Reduserer tidsbruk knyttet til oppsett
+    -   Forskere kan lage et image av alt som ble brukt til studiet
     -   Reduserer sannsynligheten for tekniske problemer
 -   Ulemper med docker
     -   Tidkrevende å opprette
-    -   Vanskelig å holde orden og oversikt på mange containere
+    -   Vanskelig å holde orden og oversikt på mange containere og image
 
 ## Docker eller ingen docker?
 
 -   Når burde man bruke docker?
     -   Prosjektene dine blir brukt i forskjellige miljøer (operativ
         system o.l.)
+    -   Forskning og reproduserbarhet
     -   Mange utviklere og teams
     -   Dersom du ønsker et skalerbart prosjekt og flere brukere
 -   Når burde man ikke bruke docker

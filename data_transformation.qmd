@@ -1,0 +1,92 @@
+---
+title: "data_transformation"
+format: html
+editor: visual
+---
+
+```{r}
+#| label: setup
+library(tidyverse)
+```
+
+```{r}
+#| paged.print: false
+mtcars |>
+  as_tibble() |>
+  arrange(cyl) |>
+  print(n = 32)
+```
+
+```{r}
+data.frame(x = rnorm(2000), y = rnorm(2000, 2, 4))
+```
+
+```{r}
+#| paged.print: false
+my_mtcars <- mtcars |>
+  as_tibble(rownames = "model") |>
+  select(model:wt) |>
+  select(model, vekt = wt, everything()) |>
+  arrange(cyl, desc(model)) |>
+  print(n = 32)
+```
+
+```{r}
+my_mtcars |>
+  filter(cyl == 6) |>
+select(model) |>
+  arrange(model) |>
+  pull()
+```
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document.
+To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code.
+You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+my_mtcars |>
+  group_by(cyl) |>
+  summarise(mean_hp = round(mean(hp), digits = 1))
+
+```
+
+```{r}
+my_mtcars |>
+  group_by(cyl) |>
+  summarise(mean_disp = round(mean(disp), digits = 1))
+
+```
+
+```{r}
+my_mtcars <- my_mtcars |>
+  mutate(
+    hp_vs_disp = hp/disp
+  )
+```
+
+```{r}
+my_mtcars |>
+  group_by(cyl) |>
+  summarise(mean_hp_vs_disp = round(mean(hp_vs_disp), digits = 3))
+  
+  
+```
